@@ -62,3 +62,44 @@ const isChecked = true,
 console.log(isChecked && isClose);
 // или то, или то
 console.log(isChecked || isClose);
+
+
+
+
+// тернарный оператор
+const sum = 50;
+switch (sum) {
+    case 40:
+        console.log('Неверно');
+        break;
+    case 100:
+        console.log('не верно');
+        break;
+    case 50:
+        console.log('В точку!');
+        break;
+    default:
+        console.log('не в этот раз');
+        break;
+}
+
+
+// цикл while
+let num = 50;
+while (num < 55) {
+    console.log(num);
+    num++;
+}
+
+// цикл do 
+do {
+    console.log(num);
+    num++;
+}
+while (num <= 55);
+
+
+// цикл for
+for (let i = 1; i < 8; i++) {
+    console.log(i);
+}
